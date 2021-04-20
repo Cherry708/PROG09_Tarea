@@ -28,6 +28,6 @@ public class Libre extends Alumno {
 
     @Override
     public String mostrarAsignaturas() {
-        return Arrays.toString(listaAsignaturas);
+        return "Alumno: "+nombre+" "+Arrays.toString(listaAsignaturas);
     }
 }
