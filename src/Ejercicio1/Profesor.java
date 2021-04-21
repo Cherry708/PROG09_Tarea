@@ -11,6 +11,7 @@ public class Profesor extends Persona {
         this.asignatura = asignatura;
     }
 
+    @Override
     public String toString(){
         return "[Profesor]"+"Nombre: "+nombre+", edad: "+edad+" años,"+" asignatura: "+asignatura;
     }
