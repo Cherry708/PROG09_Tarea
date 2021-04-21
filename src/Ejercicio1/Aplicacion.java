@@ -58,7 +58,7 @@ public class Aplicacion {
         for (Alumno listaAlumno : listaAlumnos) {
             contador = listaAlumno.pagoMensual()+contador;
                                 //!!!!!ver Persona!!!!!
-            System.out.println(listaAlumno.getNombre()+" ha de pagar: "+listaAlumno.pagoMensual()+"€");
+            System.out.println(listaAlumno.nombre+" ha de pagar: "+listaAlumno.pagoMensual()+"€");
         }
         System.out.println("El total cobrado es: "+contador+"€");
         System.out.println("-- Fin de Apartado 3, 4 y 5");
