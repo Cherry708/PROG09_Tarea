@@ -38,6 +38,20 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="\src\Ejercicio2\Animal.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\src\Ejercicio2\Gato.java">
+          <value>
+            <Attribute>
+              <option name="separator" value=";" />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
