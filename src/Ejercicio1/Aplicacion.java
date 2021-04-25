@@ -40,6 +40,7 @@ public class Aplicacion {
         //Lista de Alumnos
         Alumno[] listaAlumnos = new Alumno[5];
 
+        //Polimorfismo, la lista es de alumnos
         listaAlumnos[0] = new Presencial("Presencial1",19,4,"Nivel Académico 1", listaAsignaturas0, 5.12, 30,2);
         listaAlumnos[1] = new Presencial("Presencial2",17,2,"Nivel Académico 2", listaAsignaturas1, 5.12, 30,2);
         listaAlumnos[2] = new Presencial("Presencial3",18,3,"Nivel Académico 3", listaAsignaturas2, 5.12, 30,2);
@@ -57,8 +58,7 @@ public class Aplicacion {
         System.out.println("Pago mensual y cobrado: ");
         for (Alumno listaAlumno : listaAlumnos) {
             contador = listaAlumno.pagoMensual()+contador;
-                                //!!!!!ver Persona!!!!!
-            System.out.println(listaAlumno.getNombre()+" ha de pagar: "+listaAlumno.pagoMensual()+"€");
+            System.out.println(listaAlumno.nombre+" ha de pagar: "+listaAlumno.pagoMensual()+"€");
         }
         System.out.println("El total cobrado es: "+contador+"€");
         System.out.println("-- Fin de Apartado 3, 4 y 5");

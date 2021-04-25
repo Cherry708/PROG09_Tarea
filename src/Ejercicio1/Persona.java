@@ -21,12 +21,6 @@ public class Persona {
         this.edad = edad;
     }
 
-    //AL ENCAPSULAR EL ATRIBUTO DEBO CAMBIAR SU ACCESIBILIDAD?
-    //HA SIDO ENCAPSULADO PARA USARSE EN EL CONTROLADOR
-    //ESTARÍA BIEN NO ENCAPSULARLO Y LLAMAR DIRECTAMENTE AL ATRIBUTO DEL OBJETO?
-    public String getNombre(){
-        return nombre;
-    }
 
     @Override
     public String toString() {
